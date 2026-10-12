@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SSH keys
+*.pem
+id_rsa
+id_ed25519
+
+# Backup virtual environments
+.venv_backup/
+
+# Generated reports
+inventory.json
+report.csv
+monitoring.csv
